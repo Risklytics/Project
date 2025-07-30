@@ -22,17 +22,13 @@ Azure Subscription (Free or Paid)	Any	✅
 
 🚀 Step-by-Step Guide
 1. Clone the Project
-bash
-Copy
-Edit
-git clone https://github.com/your-username/quiz-terraform-app.git
-cd quiz-terraform-app
+
+git clone <paste the repository link>
+cd <change into that folder>
 2. Login to Azure
 Login using the Azure CLI:
 
-bash
-Copy
-Edit
+
 az login
 This will open a browser – sign in with your Azure account.
 
