@@ -74,8 +74,8 @@ Open that URL in your browser 🎉
 🧹 Clean Up (Optional)
 To remove everything:
 
+command: terraform destroy
 
-terraform destroy
 📁 Project Structure
 ```
 quiz-master/
@@ -93,15 +93,6 @@ quiz-master/
 If you get an error about "quota" or "F1 VMs = 0", change the sku_name in main.tf to "B1" instead of "F1".
 
 If a name like quizstorage is already taken, change it to something unique like quizstorage12345.
-
-🙋 Need Help?
-If you're stuck, try:
-
-Googling the error message
-
-Asking your teacher or classmates
-
-Exploring Terraform Docs
 
 Team Members and Roles:
 Hemanth Mamidi - worked on web design
